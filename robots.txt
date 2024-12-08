@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://xugezheng.github.io/sitemap.xml
+Sitemap: https://xugezheng.com/sitemap.xml
