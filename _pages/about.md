@@ -10,7 +10,7 @@ subtitle: >
 
 profile:
   align: right
-  image: pic1.jpg
+  image: pic2.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Middlesex College 222</p>
@@ -28,8 +28,9 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hello! I am Gezheng and I'm currently a fourth-year Ph.D. student in the Machine Learning group within the Computer Science Department at the University of Western Ontario🇨🇦, supervised by Prof. [Boyu Wang](https://sites.google.com/site/borriewang/) and Prof. [Charles Ling](https://www.csd.uwo.ca/~xling/). My research focuses on transfer learning, representation learning, and trustworthy AI.
+Hello! I’m Gezheng, a fourth-year Ph.D. student in the Machine Learning group at the University of Western Ontario 🇨🇦. I’m lucky to be co-supervised by Prof. [Boyu Wang](https://sites.google.com/site/borriewang/) and Prof. [Charles Ling](https://www.csd.uwo.ca/~xling/). My research focuses on **Transfer Learning**, **Representation Learning**, and **Trustworthy AI**, aiming to tackle challenges in building adaptive and reliable machine learning systems.
 
-Before pursuing my Ph.D., I obtained a Bachelor of Science degree in Mathematics and Applied Mathematics from Beihang University in 2018. I later completed dual master’s degrees from Beihang University🇨🇳 and CentraleSupélec (Paris-Saclay University)🇫🇷 in 2021, during which I conducted research in natural language processing under the supervision of Prof. Wenge Rong.
+Before starting my Ph.D., I earned my Bachelor’s degree in Mathematics and Applied Mathematics from Beihang University 🇨🇳 in 2018. Later, I completed dual master’s degrees at Beihang University and CentraleSupélec (Paris-Saclay University) 🇫🇷 in 2021. During this time, I conducted research in Natural Language Processing under the guidance of Prof. [Wenge Rong](https://wgrong.github.io/).
 
-`I am currently seeking postdoctoral opportunities where I can further contribute to advancing and reliable machine learning problems.`
+<!-- `I am currently seeking postdoctoral opportunities where I can further contribute to advancing and reliable machine learning problems.` -->
+`I’m currently looking for postdoctoral opportunities where I can continue exploring exciting problems in machine learning.` I’d love to bring my experience in transfer learning, trustworthy AI, and interdisciplinary research to a new team working on impactful projects.

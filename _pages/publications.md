@@ -19,5 +19,3 @@ nav_order: 2
 Note: * indicates equal contribution.
 
 </div>
-
-

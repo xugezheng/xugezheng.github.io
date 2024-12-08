@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "When Source-Free Domain Adaptation Meets Learning with Noisy Labels", has been accepted at ICLR 2024.
+Our paper, "When Source-Free Domain Adaptation Meets Learning with Noisy Labels", was accepted at _ICLR 2024_.
 
 

@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-I began my PhD studies at University of Western Ontario (Western University). 
+Begin PhD studies at University of Western Ontario (Western University). 
 

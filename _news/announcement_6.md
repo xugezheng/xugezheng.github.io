@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "Towards More General Loss and Setting in Unsupervised Domain Adaptation", has been accepted at IEEE Transactions on Knowledge and Data Engineering (TKDE).
+Our paper, "Towards More General Loss and Setting in Unsupervised Domain Adaptation", was accepted at _IEEE Transactions on Knowledge and Data Engineering (TKDE)_.
 
 
 

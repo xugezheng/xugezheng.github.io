@@ -5,6 +5,6 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "Intersectional Unfairness Discovery", has been accepted at ICML 2024. 
+Our paper, "Intersectional Unfairness Discovery", was accepted at _ICML 2024_. 
 
 

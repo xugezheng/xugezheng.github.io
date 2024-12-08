@@ -2,47 +2,47 @@
   type: map
   contents:
     - name: Full Name
-      value: Gezheng Xu (许舸峥)
+      value: Gezheng Xu / 许舸峥
     - name: Date of Birth
       value: April 1997
     - name: Languages
       value: Chinese (Native Speaker), English (Fluent), French (DALF C1)
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. Candidate
-      institution: University of Western Ontario (Western University)
-      year: 2021.09 - Now
-      location: London, Canada
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: Master in Industrial Engineering
-      institution: Beihang University
-      year: 2018.09 - 2021.01
-      location: Beijing, China
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-    - title: Diplôme d'Ingénieur (Dual Degree)
-      institution: CentraleSupélec (Paris-Saclay Univerisity)
-      year: 2018.09 - 2021.01
-      location: Paris, France
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-    - title: B.S. of Mathematics and Applied Mathematics,
-      institution: Beihang University
-      year: 2014.09 - 2018.09
-      location: Beijing, China
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Ph.D. Candidate
+#       institution: University of Western Ontario (Western University)
+#       year: 2021.09 - Now
+#       location: London, Canada
+#       # description:
+#       #   - Description 1.
+#       #   - Description 2.
+#       #   - title: Description 3.
+#       #     contents:
+#       #       - Sub-description 1.
+#       #       - Sub-description 2.
+#     - title: Master in Industrial Engineering
+#       institution: Beihang University
+#       year: 2018.09 - 2021.01
+#       location: Beijing, China
+#       # description:
+#       #   - Description 1.
+#       #   - Description 2.
+#     - title: Diplôme d'Ingénieur (Dual Degree)
+#       institution: CentraleSupélec (Paris-Saclay Univerisity)
+#       year: 2018.09 - 2021.01
+#       location: Paris, France
+#       # description:
+#       #   - Description 1.
+#       #   - Description 2.
+#     - title: B.S. of Mathematics and Applied Mathematics,
+#       institution: Beihang University
+#       year: 2014.09 - 2018.09
+#       location: Beijing, China
+#       # description:
+#       #   - Description 1.
+#       #   - Description 2.
 
 # - title: Experience
 #   type: time_table
@@ -84,21 +84,21 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2024
-      items:
-        - Graduate Student Teaching Award - Faculty of Science, University of Western Ontario
-    - year: 2018
-      items:
-        - Excellent Graduate Student - Beihang University
-    - year: 2016
-      items:
-        - The National Undergraduate Scholarship (TOP 1%) - Beihang University
-    - year: 2016
-      items:
-        - The First-class Academic Scholarship - Beihang University
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2024
+#       items:
+#         - Graduate Student Teaching Award - Faculty of Science, University of Western Ontario
+#     - year: 2018
+#       items:
+#         - Excellent Graduate Student - Beihang University
+#     - year: 2016
+#       items:
+#         - The National Undergraduate Scholarship (TOP 1%) - Beihang University
+#     - year: 2016
+#       items:
+#         - The First-class Academic Scholarship - Beihang University
 
 # - title: Academic Interests
 #   type: nested_list

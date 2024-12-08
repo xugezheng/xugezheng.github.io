@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Our paper, "Generalizing across Temporal Domains with Koopman Operators", has been accepted at AAAI 2024.
+Our paper, "Generalizing across Temporal Domains with Koopman Operators", was accepted at _AAAI 2024_.
 
 
 

@@ -5,7 +5,8 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Gezheng
 middle_name: 
-last_name: Xu (许舸峥)
+last_name: Xu
+zh_name: 许舸峥
 email: gxu86@uwo.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Xu Gezheng‘s Homepage
