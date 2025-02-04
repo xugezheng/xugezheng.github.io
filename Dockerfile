@@ -1,4 +1,5 @@
-FROM ruby:latest
+# FROM ruby:slim
+FROM --platform=linux/arm64 jekyll/jekyll:4.2.0
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
@@ -8,6 +9,7 @@ FROM ruby:latest
 # ARG USERNAME=jekyll
 
 ENV DEBIAN_FRONTEND noninteractive
+
 
 LABEL authors="Amir Pourmand,George Araújo" \
       description="Docker image for al-folio academic template" \
@@ -24,6 +26,7 @@ RUN apt-get update -y && \
     apt-get install -y --no-install-recommends \
         build-essential \
         curl \
+        git \
         imagemagick \
         inotify-tools \
         locales \
@@ -32,6 +35,15 @@ RUN apt-get update -y && \
         python3-pip \
         zlib1g-dev && \
     pip --no-cache-dir install --upgrade --break-system-packages nbconvert
+
+
+RUN apt-get update && \
+    apt-get install -y \
+    build-essential \
+    libxml2-dev \
+    libxslt-dev \
+    git && \
+    rm -rf /var/lib/apt/lists/*
 
 # clean up
 RUN apt-get clean && \
@@ -61,7 +73,9 @@ WORKDIR /srv/jekyll
 
 # install jekyll and dependencies
 RUN gem install --no-document jekyll bundler
-RUN bundle install --no-cache
+RUN bundle config set force_ruby_platform true && \
+    bundle install --jobs=4 --retry=3
+# RUN bundle install --no-cache
 
 EXPOSE 8080
 
@@ -73,3 +87,4 @@ COPY bin/entry_point.sh /tmp/entry_point.sh
 # USER $USERNAME
 
 CMD ["/tmp/entry_point.sh"]
+
