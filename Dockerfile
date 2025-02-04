@@ -1,5 +1,5 @@
-# FROM ruby:slim
-FROM --platform=linux/arm64 jekyll/jekyll:4.2.0
+FROM ruby:slim
+# FROM --platform=linux/arm64 jekyll/jekyll:4.2.0
 
 # uncomment these if you are having this issue with the build:
 # /usr/local/bundle/gems/jekyll-4.3.4/lib/jekyll/site.rb:509:in `initialize': Permission denied @ rb_sysopen - /srv/jekyll/.jekyll-cache/.gitignore (Errno::EACCES)
